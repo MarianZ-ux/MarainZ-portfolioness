@@ -1,0 +1,457 @@
+/* You can add custom CSS and override boostrap styles in this file.  Remember, bootstrap is just CSS at the end of the day! */
+
+body {
+  font-family:'Rubik', sans-serif;
+  position: relative;
+  background-color: #ED1250;
+}
+h3 {
+  padding-bottom:30px;
+  font-size:clamp(28px, 5vw, 34px);
+  color: #ED1250;
+  text-emphasis: bold !important;
+}
+#pageblock{
+  height:60px
+}
+/**navbar**/
+.navbar a{
+  color:#042F4B;
+}
+.navbar {
+  background: linear-gradient(#DEEDF0, #FBC99D) !important;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  min-height:60px;
+
+  -webkit-box-shadow: 0 8px 6px -6px rgba(0,0,0,.3);
+  -moz-box-shadow: 0 8px 6px -6px rgba(0,0,0,.3);
+  box-shadow: 0 8px 6px -6px rgba(0,0,0,.3);
+}
+.nav-link.active{
+	color: #ED1250 !important}
+.bg-light{
+  background-color: #ED1250 
+}
+.navbar-brand{
+	font-weight:700;
+	font-size:35px;
+}
+.navbar-brand img{
+	/*position:relative;*/
+	width:42px;
+	left:-50px;
+	top:2px;
+	/*opacity:0;*/
+}
+.navbar-brand:hover img{
+	opacity:1;
+}
+.navbar img {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 25%;
+}
+section {
+  min-height: 40vh;
+  border: 4px solid #ED1250;
+}
+/**heroSection**/
+#hero-section {
+  background-image: url(img/FrozenBranch.jpg);
+  text-shadow: 1px 1px 1px #ED1250;
+	background-position:center,center;
+	background-size:cover,cover;
+	background-repeat:no-repeat;
+	background-color:#2c374c;
+  padding: clamp(50px, 15vh, 200px) 0;
+	overflow:hidden;
+}
+#hero-img {
+  background-image: url(img/BeyBricks.jpg);
+  margin:clamp(10px, 10vh, 100px) auto 0 auto;
+	border-radius:100%;
+	background-position:center;
+	background-size:contain;
+  height:clamp(100px, 25vh, 250px);
+  width:clamp(100px, 25vh, 250px);
+	border:10px #042F4B solid;
+} 
+.hero-text{
+	max-width:400px;
+	margin:2vh auto 0 auto;
+}
+#tagline h2 {
+  color: #ED1250;
+	display:inline-block;
+	background:#2c374c;
+	font-size:clamp(28px, 3vw, 40px);
+	padding:7px;
+}
+#hero-section p{
+	color:#fff;
+	font-size:clamp(16px, 1.5vw, 24px);
+	background:#2c374c;
+	display:inline-block;
+	padding:7px;
+}
+/** .hero-text{
+  letter-spacing: 3px;
+  font-size: clamp(30px, 10vw, 50px); 
+  font-weight: 900;
+  line-height: 20px;
+}**/
+.spacer {
+  height: 90px;
+}
+#realtively {
+  position: relative;
+}
+/* * * Mission Section * * */
+
+#mission-section{
+  padding:clamp(50px, 15vw, 200px) 0;
+	background:#f5f5eb;
+	text-align:center;
+	color:#2c374c;
+}
+#mission-section img{
+	margin:0;
+	padding-bottom:20px;
+}
+.mission-text{
+	text-align:left;
+	font-size:clamp(16px, 1.5vw, 24px);
+	margin:auto 0;
+}
+
+/* * * Skills Section * * */
+
+#skills-section{
+	padding:clamp(100px, 15vh, 200px) 0;
+	text-align:center;
+	background:#2c374c;
+	color:#f5f5eb;
+}
+#skills-section h3{
+	margin-bottom:5vh;
+}
+.skill-container{
+	margin-bottom:20px;
+}
+.skill-container img{
+	height:clamp(100px, 12vw, 200px);
+}
+.skill-container p{
+	margin:20px auto;
+}
+
+/* * * Inspiration Section + Carousel * * */
+
+
+
+#inspiration-section{
+	text-align:center;
+	padding:clamp(100px, 15vh, 200px) 0;
+	background:#f5f5eb;
+	color:#2c374c;
+}
+
+/*this is my "good enough" carousel design. (I'm working on not being such a perfectionist!) 
+
+.mountain{
+	background-image:url('/img/mountain.jpg');
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.daisies{
+	background-image:url('/img/daisies.jpg');
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.clouds{
+	background-image:url('/img/clouds.jpg');
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.carousel-item img {
+  height:clamp(300px, 55vw, 600px) !important;
+  width:100%;
+	opacity:0.8;
+}
+.carousel-caption{
+	font-size:clamp(16px, 3vw, 30px);
+	text-align:left;
+	top: 50%;
+	transform:translateY(-50%);
+	bottom:initial;
+	text-shadow:2px 2px 2px rgba(0, 0, 0, 0.342);
+}
+.carousel-caption h6{
+	font-size: clamp(16px, 3vw, 30px);
+	font-weight:300;
+	line-height:1.75em;
+}
+.carousel-caption p{
+	font-size:0.75em;
+	margin-top:30px;
+}
+.highlight{
+	background:#f5f5eb;
+	color:#2c374c;
+	text-shadow:0px 0px 0px;
+}
+.underline{
+	text-decoration:underline;
+	text-shadow:0px 0px 0px;
+} **/
+.photo-container:nth-child(1) .photo {
+   background-image: 
+   url(https://picsum.photos/200/300?random=1);
+}
+.photo-container:nth-child(2) .photo {
+   background-image: 
+   url(https://picsum.photos/200/300?random=2);
+}
+.photo-container:nth-child(3) .photo {
+   background-image: 
+   url(https://picsum.photos/200/300?random=3); 
+}
+.photo-container:nth-child(4) .photo {
+   background-image: 
+   url(https://picsum.photos/200/300?random=4);
+}
+/**.photo-container:nth-child(5) .photo {
+   background-image: 
+   url(https://picsum.photos/200/300?random=5);
+}
+.photo-container:nth-child(6) .photo {
+   background-image: 
+   url(https://picsum.photos/200/300?random=6);**/
+}
+body {
+  margin: 0;
+  background-color: #afafaf;
+}
+
+h1 {
+  color: #afafaf;
+  font-size: 34px;
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  margin-bottom: 34px;
+  text-transform: uppercase;
+}
+
+hr {
+    margin: 0 auto 34px auto;
+    border: 0;
+    height: 2px;
+    width: 80%;
+    background-image: 
+      linear-gradient(to right, 
+        rgba(0, 0, 0, 0), 
+        rgba(175, 175, 175, .35), 
+        rgba(0, 0, 0, 0));
+}
+
+#gallery {
+  text-align: center;
+}
+
+.photo-container {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.photo {
+  width: 100%;
+  height: 100%; 
+  transition-duration: .3s;
+}
+
+.photo-container:hover .photo {
+  transform: scale(1.2);
+}
+.photo-container:hover::before {
+  display: block;
+  position: absolute;
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(0,0,0,.2);
+  color: white; 
+  content: "Photo Name";
+  padding: 80px 30px;
+  content: "";
+  z-index: 1;
+}
+
+/* * * Contact Section * * */
+
+#contact-section{
+	padding:clamp(100px, 15vh, 200px) 0;
+	background:#2c374c;
+	color:#f5f5eb;
+}
+.contact-type{
+	font-size:clamp(30px, 6vw, 50px);
+}
+.social{
+	font-size:16px;
+}
+.bi-linkedin{
+	display:inline-block;
+	transition:0.3s;
+}
+.bi-linkedin:hover{
+	transform:rotate(-10deg);
+	color:#0e76a8;
+}
+.bi-instagram{
+	display:inline-block;
+	transition:0.3s;
+}
+.bi-instagram:hover{
+	color:#bc2a8d;
+	transform:rotate(-10deg);
+}
+.bi-envelope{
+	display:inline-block;
+	transition:0.3s;
+}
+.bi-envelope:hover{
+	color:#B23121;
+	transform:rotate(-10deg);
+}
+
+/* * * Footer 
+
+footer{
+	background:#f5f5eb;
+	text-align:center;
+	height:50px;
+	line-height:50px;
+}* * */
+
+/* * * Additional responsive styling to get all of the text and images to do exactly what I wanted in the first place - gah! * * */
+
+@media (max-width: 767px) {
+	#mission-section img{
+		height:80vw !important;
+		width:auto;
+		margin:0 auto;
+	}
+	.mission-text{
+	margin:0 auto;
+	width:85vw !important;
+	}
+	.skill-container img{
+		height:120px;
+	}
+	.skill-container p{
+		width:225px;
+		font-size:16px;
+	}
+}
+@media (min-width: 768px) {
+	.skill-container p{
+		width:225px;
+		font-size:16px;
+	}
+}
+@media (min-width: 992px) {
+	.skill-container p{
+		width:200px;
+		font-size:1.25vw;
+	}
+	.skill-container img{
+		height:115px;
+	}
+}
+@media (min-width: 1200px) {
+	.skill-container p{
+		width:210px;
+		font-size:1.2vw;
+	}
+	 .skill-container img{
+		height:125px;
+	}
+}
+@media (min-width: 1400px) {
+	.skill-container p{
+		width:260px;
+		font-size:1.2vw;
+	}
+	 .skill-container img{
+		height:125px;
+	}
+}
+@media (min-width: 2560px) {
+	.skill-container p{
+		width:260px;
+		font-size:1vw;
+	}
+	 .skill-container img{
+		height:200px;
+	}
+}
+/**
+#skills-section {}
+
+i {
+  min-height: 40px;
+  width: 50px;
+  border-radius: 25%;
+}
+.carousel-caption h4 {
+  color: white;
+  font-size: clamp(24px, 3.4vw, 48px)!important;
+  text-shadow: 1px 1px 2px #6E5773;
+}
+.carousel-caption p {
+  color: white;
+  font-size: clamp(14px, 2vw, 24px)!important;
+  text-shadow: 1px 1px 2px #6E5773;
+}
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#contact {
+  padding: clamp(50px, 20vh, 50px) 0;
+  margin: 0;
+  width: 100%;
+  font-size: 2em;
+  text-align: center;
+  vertical-align:middle;
+}
+i {
+  min-height: 50px;
+  width: 50px;
+  color: #042F4B;
+}
+
+.bi:hover::before {
+  color: #042F4B;
+}
+
+.bi:hover::after {
+  color: #ED1250;
+  filter: brightness(75%);
+}
+#footer {
+  background: linear-gradient(#DEEDF0, #ED1250);
+  color: #042F4B;
+  padding: 5vh 5vh;
+  margin: 0;
+  text-align: center;
+  vertical-align: middle;
+}
